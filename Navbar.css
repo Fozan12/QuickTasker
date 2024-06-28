@@ -1,0 +1,32 @@
+body {
+    color: rgb(237, 237, 237);
+    background-color: #121212;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: rgb(237, 237, 237) !important;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+.decor_btn{
+    background-color: rgb(170, 170, 170);
+    border: 10px solid rgba(249, 154, 65, 0.232);
+    border-radius: 200px;
+}
+.decor_btn:hover{
+    background-color: rgb(46, 46, 46);
+}

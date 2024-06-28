@@ -1,0 +1,54 @@
+#da34 {
+    height: 600px;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    border: 3px solid rgb(148, 148, 148);
+    border-radius: 200px;
+}
+
+.slider-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s;
+}
+
+/* Make images responsive */
+@media (max-width: 1200px) {
+    #da34 {
+        height: 500px;
+        border-radius: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    #da34 {
+        height: 400px;
+        border-radius: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    #da34 {
+        height: 300px;
+        border-radius: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+    #da34 {
+        height: 200px;
+        border-radius: 50px;
+    }
+}
+
+
+#native34{
+    display: inline;
+    padding: 400px;
+}
